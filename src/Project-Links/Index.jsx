@@ -9,6 +9,8 @@ const index = () => {
      <Link to='/form-handeling' className='m-10'>Form Handeling</Link>
      <br/>
       <Link to='/task-list' className='m-10'>Task List</Link>
+      <br/>
+      <Link to='/Theme_change' className='m-10'>Theme Change</Link>
     </div>
   )
 }

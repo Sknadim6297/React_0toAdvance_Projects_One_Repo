@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function TaskList() {
-    const [task, setTask] = useState(['Task 1', 'Task 2', 'Task 3'])
+    const [task, setTask] = useState([])
     const [newTask, setNewTask] = useState('')
 
     const addTask = () => {
