@@ -5,7 +5,10 @@ const index = () => {
   return (
     <div>
      <Link to='/counter' className='m-10'>Counter</Link>
-
+     <br/>
+     <Link to='/form-handeling' className='m-10'>Form Handeling</Link>
+     <br/>
+      <Link to='/task-list' className='m-10'>Task List</Link>
     </div>
   )
 }
