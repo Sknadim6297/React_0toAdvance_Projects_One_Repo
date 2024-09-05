@@ -5,6 +5,7 @@ import Index from '../Project-Links'
 import FormHandeling from '../Questions/FormHandeling'
 import TaskList from '../Questions/TaskList'
 import ThemeChange from '../Questions/ThemeChange'
+import SearchAbleList from '../Project-Links/SearchAbleList'
 
 const index = () => {
   return (
@@ -15,6 +16,7 @@ const index = () => {
             <Route path='/form-handeling'  element={<FormHandeling/>} />
             <Route path='/task-list' element={<TaskList/>} />
             <Route path='Theme_change' element={<ThemeChange/>} />
+            <Route path='search' element={<SearchAbleList/>} />
         </Routes>
     </div>
   )

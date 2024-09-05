@@ -11,6 +11,8 @@ const index = () => {
       <Link to='/task-list' className='m-10'>Task List</Link>
       <br/>
       <Link to='/Theme_change' className='m-10'>Theme Change</Link>
+      <br/>
+      <Link to='/search' className='m-10'>Search able List</Link>
     </div>
   )
 }
